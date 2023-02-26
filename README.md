@@ -23,7 +23,7 @@ Now open the `STICLI.dll.config` e.g. with Notepad/Editor and paste your Spotify
   </appSettings>
 </configuration>
 ```
-Save the file and now open `cmd` or `terminal` at the same location and run the application once by typing `STICLI.exe` and hit `enter`.
+Save the file and now open `cmd` or `terminal` at the same location and run the application once by typing either `STICLI.exe` or `.\STICLI.exe` and hit `enter`.
 
 You should now be prompted to allow the app to control your player. Just agree. This is OAuth2: Only the app itself is able to do things! You can revoke that anytime if you want to.
 
