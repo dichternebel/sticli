@@ -8,9 +8,9 @@ Store information about your currently played Spotify track for further use.
 This .Net Core console app gathers information from Spotify API and stores them into text and image files that can then be used e.g. within OBS. You might see this as an alternative to [OBS Tuna](https://obsproject.com/forum/resources/tuna.843/) or [SNIP](https://github.com/dlrudie/Snip) when using Spotify.
 ## Prerequisites
 
-- A Spotify (Premium?) account.
-- A registered [Spotify app](https://developer.spotify.com/documentation/general/guides/authorization/app-settings/) with callback `http://localhost:5000/spotifyCallback` and it's ClientID.
-- This thing downloaded from the [releases section](https://github.com/dichternebel/sticli/releases).
+- You need a Spotify (Premium?) account.
+- Go register a [Spotify app](https://developer.spotify.com/documentation/general/guides/authorization/app-settings/) with Redirect URI `http://localhost:5000/spotifyCallback` and copy it's ClientID.
+- Download this thing from the [releases section](https://github.com/dichternebel/sticli/releases).
 
 ## Setting things up
 Once you downloaded the zip file extract the two files to wherever you want. Might be e.g. `C:\Tools\STICLI\`.
