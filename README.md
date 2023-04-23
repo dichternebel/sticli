@@ -9,7 +9,7 @@ This .Net Core console app gathers information from Spotify API and stores them 
 ## Prerequisites
 
 - You need a Spotify (Premium?) account.
-- Go register a [Spotify app](https://developer.spotify.com/documentation/general/guides/authorization/app-settings/) with Redirect URI `http://localhost:5000/spotifyCallback` and copy it's ClientID.
+- Go register a [Spotify app](https://developer.spotify.com/documentation/web-api/concepts/apps) with Redirect URI `http://localhost:5000/spotifyCallback` and copy it's ClientID.
 - Download this thing from the [releases section](https://github.com/dichternebel/sticli/releases).
 
 ## Setting things up
